@@ -1,0 +1,60 @@
+---
+title: "Top 5 working time/ salaries ratio occupations"
+output: html_notebook
+---
+
+###Read Data
+
+```{r}
+library(readr)
+a14=read_csv("ss14pusa.csv")
+b14=read_csv("ss14pusb.csv")
+all14=rbind(a14,b14)
+rm(a14);rm(b14)
+```
+
+
+###Data Laundry
+```{r}
+library(dplyr)
+attach(all14)
+names(all14)
+select <- select(all14,OCCP,ST,WAGP,AGEP,JWMNP,ESR,SCHL,SEX,WKHP,NAICSP,PWGTP,POWSP,POWPUMA)%>%
+      na.omit()%>%
+      mutate(WAGP=as.numeric(WAGP),
+             AGEP=as.numeric(AGEP),
+             WKHP=as.numeric(WKHP),
+             JWMNP=as.numeric(JWMNP),
+             PWGTP=as.numeric(PWGTP),
+             ST=as.integer(ST))
+
+```
+
+
+###
+```{r}
+head(select)
+
+group_OCCP <- group_by(select,OCCP)
+
+sum_ratio <- summarise(group_OCCP,
+                   Meanwage=weighted.mean(WAGP,w=PWGTP),
+                   MeanWKHP=weighted.mean(WKHP,w=PWGTP))
+sum_ratio$index <- sum_ratio$Meanwage / sum_ratio$MeanWKHP
+
+arrange(sum_ratio$index)
+
+plot(sum_ratio$Meanwage~sum_ratio$MeanWKHP)
+sum_ratio$OCCP[order(sum_ratio$index, decreasing = TRUE)[1:5]]
+
+summarise(sum_ratio$)
+
+```
+```{r}
+#3060	MED	Healthcare Practitioners and Technical Occupations	PHYSICIANS AND SURGEONS	
+#3256	MED	Healthcare Practitioners and Technical Occupations	NURSE ANESTHETISTS	
+#3010	MED	Healthcare Practitioners and Technical Occupations	DENTISTS	
+#10	MGR	Management, Business, Science, and Arts Occupations	CHIEF EXECUTIVES AND LEGISLATORS	
+#300	MGR	Management, Business, Science, and Arts Occupations	ARCHITECTURAL AND ENGINEERING MANAGERS	
+```
+
