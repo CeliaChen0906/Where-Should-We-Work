@@ -1,0 +1,154 @@
+---
+title: "R Notebook"
+output:
+  html_document: default
+  html_notebook: default
+---
+
+This is an [R Markdown](http://rmarkdown.rstudio.com) Notebook. When you execute code within the notebook, the results appear beneath the code. 
+
+Try executing this chunk by clicking the *Run* button within the chunk or by placing your cursor inside it and pressing *Ctrl+Shift+Enter*. 
+
+```{r}
+library(readr)
+library(dplyr)
+library(maps)
+library(leaflet)
+library(rbokeh)
+library(fmsb)
+```
+
+```{r}
+
+setwd("C:/Users/Administrator/Desktop/ADS/Proj 1/Data")
+a14=read_csv("ss14pusa.csv")
+b14=read_csv("ss14pusb.csv")
+all14=rbind(a14,b14)
+rm(a14);rm(b14)
+gc();Sys.sleep(10);gc() #To make sure clean all memory in case of crash
+
+ST_name=read.csv("statenames.csv") #The redundant space in abbr column has been removed in Excel
+occupa=read.csv("OCCP.csv")
+```
+
+```{r}
+
+selct=select(all14,OCCP,ST,WAGP,AGEP,JWMNP,ESR,SCHL,SEX,WKHP,NAICSP,PWGTP,POWSP,POWPUMA)%>%
+      na.omit()%>%
+      mutate(WAGP=as.numeric(WAGP),
+             AGEP=as.numeric(AGEP),
+             WKHP=as.numeric(WKHP),
+             JWMNP=as.numeric(JWMNP),
+             PWGTP=as.numeric(PWGTP),
+             ST=as.integer(ST),
+             SCHL=as.integer(SCHL),
+             SEX=as.integer(SEX),
+             OCCP=as.integer(OCCP))%>%
+       merge(occupa,by="OCCP")
+      
+
+group_ST=group_by(selct,ST)
+sumrz_ST=summarise(group_ST,
+                   Meanwage=weighted.mean(WAGP,w=PWGTP),
+                   MeanAGEP=weighted.mean(AGEP,w=PWGTP),
+                   MeanWKHP=weighted.mean(WKHP,w=PWGTP),
+                   MeanJWMNP=weighted.mean(JWMNP,w=PWGTP)
+                    )%>%
+          mutate(ST.map=match(ST_name$abbr[-52],state.fips$abb,nomatch=99))%>%
+          mutate(abb=state.fips$abb[ST.map])%>%
+          arrange(ST.map)
+map.data=merge(state.fips,sumrz_ST,by="abb",all=T)%>%
+         arrange(ST.map)
+
+
+```
+
+
+
+```{r}
+
+pal1 <- colorNumeric(
+  palette = "OrRd",
+  domain = map.data$Meanwage
+)
+
+
+mapStates = map("state", fill = TRUE, plot = FALSE)
+leaflet(data = mapStates) %>% addTiles() %>%
+  addPolygons(fillColor =pal1(map.data$Meanwage), fillOpacity=0.5,stroke = FALSE)
+```
+```{r}
+pal2 <- colorNumeric(
+  palette = "Blues",
+  domain = map.data$MeanWKHP
+)
+
+
+mapStates = map("state", fill = TRUE, plot = FALSE)
+leaflet(data = mapStates) %>% addTiles() %>%
+  addPolygons(fillColor =pal2(map.data$MeanWKHP), fillOpacity=0.5,stroke = FALSE)
+```
+```{r}
+
+pal3 <- colorNumeric(
+  palette = "Greens",
+  domain = map.data$Meanwage/map.data$MeanWKHP
+)
+
+
+mapStates = map("state", fill = TRUE, plot = FALSE)
+leaflet(data = mapStates) %>% addTiles() %>%
+  addPolygons(fillColor =pal3(map.data$Meanwage/map.data$MeanWKHP), fillOpacity=0.5,stroke = FALSE)
+
+```
+
+
+```{r}
+
+group_OCCPABB=group_by(selct,OCCABB)
+sumrz_OCCPABB=summarise(group_OCCPABB,
+                   Meanwage=weighted.mean(WAGP,w=PWGTP),
+                   MeanAGEP=weighted.mean(AGEP,w=PWGTP),
+                   MeanWKHP=weighted.mean(WKHP,w=PWGTP),
+                   MeanJWMNP=weighted.mean(JWMNP,w=PWGTP),
+                   MeanSCHL=weighted.mean(SCHL,w=PWGTP),
+                   MeanSEX=weighted.mean(SEX,w=PWGTP),
+                   Count=sum(PWGTP)
+)
+
+group_OCCP=group_by(selct,OCCP)
+sumrz_OCCP=summarise(group_OCCP,
+                        Meanwage=weighted.mean(WAGP,w=PWGTP),
+                        MeanAGEP=weighted.mean(AGEP,w=PWGTP),
+                        MeanWKHP=weighted.mean(WKHP,w=PWGTP),
+                        MeanJWMNP=weighted.mean(JWMNP,w=PWGTP),
+                        MeanSCHL=weighted.mean(SCHL,w=PWGTP),
+                        MeanSEX=weighted.mean(SEX,w=PWGTP),
+                        Count=sum(PWGTP)
+)
+
+```
+
+```{r}
+n <- nrow(sumrz_OCCP)
+ramp <- colorNumeric(
+  palette = "Blues",
+  domain = sumrz_OCCP$MeanSCHL
+)
+options(viewer = NULL)
+figure() %>%
+  ly_points(x=Meanwage,y=MeanWKHP, hover=OCCP,color = ramp(sumrz_OCCP$MeanSCHL), size = 20*Count/max(Count),data=sumrz_OCCP) %>%
+  tool_box_select() %>%
+  tool_lasso_select()
+figure() %>%
+  ly_points(x=Meanwage,y=MeanWKHP, hover=OCCABB,color = ramp(sumrz_OCCPABB$MeanSCHL), size = Count/min(Count),data=sumrz_OCCPABB) %>%
+  tool_box_select() %>%
+  tool_lasso_select()%>%
+  x_axis("Average Wage",number_formatter = "numeral", format = "0,000")%>%
+  y_axis("Average Working Hour",number_formatter = "numeral", format = "0,000")
+  
+
+```
+Add a new chunk by clicking the *Insert Chunk* button on the toolbar or by pressing *Ctrl+Alt+I*.
+
+When you save the notebook, an HTML file containing the code and output will be saved alongside it (click the *Preview* button or press *Ctrl+Shift+K* to preview the HTML file).
