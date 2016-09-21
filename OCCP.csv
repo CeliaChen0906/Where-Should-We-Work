@@ -1,0 +1,492 @@
+OCCP,OCCABB,NOTE,OCCUPATION
+10,MGR,"Management, Business, Science, and Arts Occupations",CHIEF EXECUTIVES AND LEGISLATORS
+20,MGR,"Management, Business, Science, and Arts Occupations",GENERAL AND OPERATIONS MANAGERS
+40,MGR,"Management, Business, Science, and Arts Occupations",ADVERTISING AND PROMOTIONS MANAGERS
+50,MGR,"Management, Business, Science, and Arts Occupations",MARKETING AND SALES MANAGERS
+60,MGR,"Management, Business, Science, and Arts Occupations",PUBLIC RELATIONS AND FUNDRAISING MANAGERS
+100,MGR,"Management, Business, Science, and Arts Occupations",ADMINISTRATIVE SERVICES MANAGERS
+110,MGR,"Management, Business, Science, and Arts Occupations",COMPUTER AND INFORMATION SYSTEMS MANAGERS
+120,MGR,"Management, Business, Science, and Arts Occupations",FINANCIAL MANAGERS
+135,MGR,"Management, Business, Science, and Arts Occupations",COMPENSATION AND BENEFITS MANAGERS
+136,MGR,"Management, Business, Science, and Arts Occupations",HUMAN RESOURCES MANAGERS
+137,MGR,"Management, Business, Science, and Arts Occupations",TRAINING AND DEVELOPMENT MANAGERS
+140,MGR,"Management, Business, Science, and Arts Occupations",INDUSTRIAL PRODUCTION MANAGERS
+150,MGR,"Management, Business, Science, and Arts Occupations",PURCHASING MANAGERS
+160,MGR,"Management, Business, Science, and Arts Occupations","TRANSPORTATION, STORAGE, AND DISTRIBUTION MANAGERS"
+205,MGR,"Management, Business, Science, and Arts Occupations","FARMERS, RANCHERS, AND OTHER AGRICULTURAL MANAGERS"
+220,MGR,"Management, Business, Science, and Arts Occupations",CONSTRUCTION MANAGERS
+230,MGR,"Management, Business, Science, and Arts Occupations",EDUCATION ADMINISTRATORS
+300,MGR,"Management, Business, Science, and Arts Occupations",ARCHITECTURAL AND ENGINEERING MANAGERS
+310,MGR,"Management, Business, Science, and Arts Occupations",FOOD SERVICE MANAGERS
+330,MGR,"Management, Business, Science, and Arts Occupations",GAMING MANAGERS
+340,MGR,"Management, Business, Science, and Arts Occupations",LODGING MANAGERS
+350,MGR,"Management, Business, Science, and Arts Occupations",MEDICAL AND HEALTH SERVICES MANAGERS
+360,MGR,"Management, Business, Science, and Arts Occupations",NATURAL SCIENCES MANAGERS
+410,MGR,"Management, Business, Science, and Arts Occupations","PROPERTY, REAL ESTATE, AND COMMUNITY ASSOCIATION"
+420,MGR,"Management, Business, Science, and Arts Occupations",SOCIAL AND COMMUNITY SERVICE MANAGERS
+425,MGR,"Management, Business, Science, and Arts Occupations",EMERGENCY MANAGEMENT DIRECTORS
+430,MGR,"Management, Business, Science, and Arts Occupations","MISCELLANEOUS MANAGERS, INCLUDING FUNERAL SERVICE .MANAGERS AND POSTMASTERS AND MAIL SUPERINTENDENTS"
+500,BUS,Business Operations Specialists,"AGENTS AND BUSINESS MANAGERS OF ARTISTS, PERFORMERS,"
+510,BUS,Business Operations Specialists,"BUYERS AND PURCHASING AGENTS, FARM PRODUCTS"
+520,BUS,Business Operations Specialists,"WHOLESALE AND RETAIL BUYERS, EXCEPT FARM PRODUCTS"
+530,BUS,Business Operations Specialists,"PURCHASING AGENTS, EXCEPT WHOLESALE, RETAIL, AND FARM PRODUCTS"
+540,BUS,Business Operations Specialists,"CLAIMS ADJUSTERS, APPRAISERS, EXAMINERS, AND INVESTIGATORS"
+565,BUS,Business Operations Specialists,COMPLIANCE OFFICERS
+600,BUS,Business Operations Specialists,COST ESTIMATORS
+630,BUS,Business Operations Specialists,HUMAN RESOURCES WORKERS
+640,BUS,Business Operations Specialists,"COMPENSATION, BENEFITS, AND JOB ANALYSIS SPECIALISTS"
+650,BUS,Business Operations Specialists,TRAINING AND DEVELOPMENT SPECIALISTS
+700,BUS,Business Operations Specialists,LOGISTICIANS
+710,BUS,Business Operations Specialists,MANAGEMENT ANALYSTS
+725,BUS,Business Operations Specialists,"MEETING, CONVENTION, AND EVENT PLANNERS"
+726,BUS,Business Operations Specialists,FUNDRAISERS
+735,BUS,Business Operations Specialists,MARKET RESEARCH ANALYSTS AND MARKETING SPECIALISTS
+740,BUS,Business Operations Specialists,"BUSINESS OPERATIONS SPECIALISTS, ALL OTHER"
+800,FIN,Finanacial Specialists,ACCOUNTANTS AND AUDITORS
+810,FIN,Finanacial Specialists,APPRAISERS AND ASSESSORS OF REAL ESTATE
+820,FIN,Finanacial Specialists,BUDGET ANALYSTS
+830,FIN,Finanacial Specialists,CREDIT ANALYSTS
+840,FIN,Finanacial Specialists,FINANCIAL ANALYSTS
+850,FIN,Finanacial Specialists,PERSONAL FINANCIAL ADVISORS
+860,FIN,Finanacial Specialists,INSURANCE UNDERWRITERS
+900,FIN,Finanacial Specialists,FINANCIAL EXAMINERS
+910,FIN,Finanacial Specialists,CREDIT COUNSELORS AND LOAN OFFICERS
+930,FIN,Finanacial Specialists,"TAX EXAMINERS AND COLLECTORS, AND REVENUE AGENTS"
+940,FIN,Finanacial Specialists,TAX PREPARERS
+950,FIN,Finanacial Specialists,"FINANCIAL SPECIALISTS, ALL OTHER"
+1005,CMM,Computer and Mathematical Occupations,COMPUTER AND INFORMATION RESEARCH SCIENTISTS
+1006,CMM,Computer and Mathematical Occupations,COMPUTER SYSTEMS ANALYSTS
+1007,CMM,Computer and Mathematical Occupations,INFORMATION SECURITY ANALYSTS
+1010,CMM,Computer and Mathematical Occupations,COMPUTER PROGRAMMERS
+1020,CMM,Computer and Mathematical Occupations,"SOFTWARE DEVELOPERS, APPLICATIONS AND SYSTEMS SOFTWARE"
+1030,CMM,Computer and Mathematical Occupations,WEB DEVELOPERS
+1050,CMM,Computer and Mathematical Occupations,COMPUTER SUPPORT SPECIALISTS
+1060,CMM,Computer and Mathematical Occupations,DATABASE ADMINISTRATORS
+1105,CMM,Computer and Mathematical Occupations,NETWORK AND COMPUTER SYSTEMS ADMINISTRATORS
+1106,CMM,Computer and Mathematical Occupations,COMPUTER NETWORK ARCHITECTS
+1107,CMM,Computer and Mathematical Occupations,"COMPUTER OCCUPATIONS, ALL OTHER"
+1200,CMM,Computer and Mathematical Occupations,ACTUARIES
+1220,CMM,Computer and Mathematical Occupations,OPERATIONS RESEARCH ANALYSTS
+1240,CMM,Computer and Mathematical Occupations,"MISCELLANEOUS MATHEMATICAL SCIENCE OCCUPATIONS, INCLUDING MATHEMATICIANS AND STATISTICIANS"
+1300,ENG,Architecture and Engineering Occupations,"ARCHITECTS, EXCEPT NAVAL"
+1310,ENG,Architecture and Engineering Occupations,"SURVEYORS, CARTOGRAPHERS, AND PHOTOGRAMMETRISTS"
+1320,ENG,Architecture and Engineering Occupations,AEROSPACE ENGINEERS
+1340,ENG,Architecture and Engineering Occupations,BIOMEDICAL AND AGRICULTURAL ENGINEERS
+1350,ENG,Architecture and Engineering Occupations,CHEMICAL ENGINEERS
+1360,ENG,Architecture and Engineering Occupations,CIVIL ENGINEERS
+1400,ENG,Architecture and Engineering Occupations,COMPUTER HARDWARE ENGINEERS
+1410,ENG,Architecture and Engineering Occupations,ELECTRICAL AND ELECTRONICS ENGINEERS
+1420,ENG,Architecture and Engineering Occupations,ENVIRONMENTAL ENGINEERS
+1430,ENG,Architecture and Engineering Occupations,"INDUSTRIAL ENGINEERS, INCLUDING HEALTH AND SAFETY"
+1440,ENG,Architecture and Engineering Occupations,MARINE ENGINEERS AND NAVAL ARCHITECTS
+1450,ENG,Architecture and Engineering Occupations,MATERIALS ENGINEERS
+1460,ENG,Architecture and Engineering Occupations,MECHANICAL ENGINEERS
+1520,ENG,Architecture and Engineering Occupations,"PETROLEUM, MINING AND GEOLOGICAL ENGINEERS, INCLUDING MINING SAFETY ENGINEERS"
+1530,ENG,Architecture and Engineering Occupations,"MISCELLANEOUS ENGINEERS, INCLUDING NUCLEAR ENGINEERS"
+1540,ENG,Architecture and Engineering Occupations,DRAFTERS
+1550,ENG,Architecture and Engineering Occupations,"ENGINEERING TECHNICIANS, EXCEPT DRAFTERS"
+1560,ENG,Architecture and Engineering Occupations,SURVEYING AND MAPPING TECHNICIANS
+1600,SCI,"Life, Physical,and Social Science Occupations",AGRICULTURAL AND FOOD SCIENTISTS
+1610,SCI,"Life, Physical,and Social Science Occupations",BIOLOGICAL SCIENTISTS
+1640,SCI,"Life, Physical,and Social Science Occupations",CONSERVATION SCIENTISTS AND FORESTERS
+1650,SCI,"Life, Physical,and Social Science Occupations","MEDICAL SCIENTISTS, AND LIFE SCIENTISTS, ALL OTHER"
+1700,SCI,"Life, Physical,and Social Science Occupations",ASTRONOMERS AND PHYSICISTS
+1710,SCI,"Life, Physical,and Social Science Occupations",ATMOSPHERIC AND SPACE SCIENTISTS
+1720,SCI,"Life, Physical,and Social Science Occupations",CHEMISTS AND MATERIALS SCIENTISTS
+1740,SCI,"Life, Physical,and Social Science Occupations",ENVIRONMENTAL SCIENTISTS AND GEOSCIENTISTS
+1760,SCI,"Life, Physical,and Social Science Occupations","PHYSICAL SCIENTISTS, ALL OTHER"
+1800,SCI,"Life, Physical,and Social Science Occupations",ECONOMISTS
+1820,SCI,"Life, Physical,and Social Science Occupations",PSYCHOLOGISTS
+1840,SCI,"Life, Physical,and Social Science Occupations",URBAN AND REGIONAL PLANNERS
+1860,SCI,"Life, Physical,and Social Science Occupations","MISCELLANEOUS SOCIAL SCIENTISTS, INCLUDING SURVEY RESEARCHERS AND SOCIOLOGISTS"
+1900,SCI,"Life, Physical,and Social Science Occupations",AGRICULTURAL AND FOOD SCIENCE TECHNICIANS
+1910,SCI,"Life, Physical,and Social Science Occupations",BIOLOGICAL TECHNICIANS
+1920,SCI,"Life, Physical,and Social Science Occupations",CHEMICAL TECHNICIANS
+1930,SCI,"Life, Physical,and Social Science Occupations","GEOLOGICAL AND PETROLEUM TECHNICIANS, AND NUCLEAR TECHNICIANS"
+1965,SCI,"Life, Physical,and Social Science Occupations","MISCELLANEOUS LIFE, PHYSICAL, AND SOCIAL SCIENCE TECHNICIANS, INCLUDING SOCIAL SCIENCE RESEARCH ASSISTANTS"
+2000,CMS,Community and Social Service Occupations,COUNSELORS
+2010,CMS,Community and Social Service Occupations,SOCIAL WORKERS
+2015,CMS,Community and Social Service Occupations,PROBATION OFFICERS AND CORRECTIONAL TREATMENT SPECIALISTS
+2016,CMS,Community and Social Service Occupations,SOCIAL AND HUMAN SERVICE ASSISTANTS
+2025,CMS,Community and Social Service Occupations,"MISCELLANEOUS COMMUNITY AND SOCIAL SERVICE .SPECIALISTS,INCLUDING HEALTH EDUCATORS AND COMMUNITY .HEALTH WORKERS"
+2040,CMS,Community and Social Service Occupations,CLERGY
+2050,CMS,Community and Social Service Occupations,"DIRECTORS, RELIGIOUS ACTIVITIES AND EDUCATION"
+2060,CMS,Community and Social Service Occupations,"RELIGIOUS WORKERS, ALL OTHER"
+2100,LGL,Legal Occupations,"LAWYERS, AND JUDGES, MAGISTRATES, AND OTHER JUDICIAL WORKERS"
+2105,LGL,Legal Occupations,JUDICIAL LAW CLERKS
+2145,LGL,Legal Occupations,PARALEGALS AND LEGAL ASSISTANTS
+2160,LGL,Legal Occupations,MISCELLANEOUS LEGAL SUPPORT WORKERS
+2200,EDU,"Education, Training, and library Occupations",POSTSECONDARY TEACHERS
+2300,EDU,"Education, Training, and library Occupations",PRESCHOOL AND KINDERGARTEN TEACHERS
+2310,EDU,"Education, Training, and library Occupations",ELEMENTARY AND MIDDLE SCHOOL TEACHERS
+2320,EDU,"Education, Training, and library Occupations",SECONDARY SCHOOL TEACHERS
+2330,EDU,"Education, Training, and library Occupations",SPECIAL EDUCATION TEACHERS
+2340,EDU,"Education, Training, and library Occupations",OTHER TEACHERS AND INSTRUCTORS
+2400,EDU,"Education, Training, and library Occupations","ARCHIVISTS, CURATORS, AND MUSEUM TECHNICIANS"
+2430,EDU,"Education, Training, and library Occupations",LIBRARIANS
+2440,EDU,"Education, Training, and library Occupations",LIBRARY TECHNICIANS
+2540,EDU,"Education, Training, and library Occupations",TEACHER ASSISTANTS
+2550,EDU,"Education, Training, and library Occupations","OTHER EDUCATION, TRAINING, AND LIBRARY WORKERS"
+2600,ENT,"Arts, Design, Entertainment, Sports, and Media Occupations",ARTISTS AND RELATED WORKERS
+2630,ENT,"Arts, Design, Entertainment, Sports, and Media Occupations",DESIGNERS
+2700,ENT,"Arts, Design, Entertainment, Sports, and Media Occupations",ACTORS
+2710,ENT,"Arts, Design, Entertainment, Sports, and Media Occupations",PRODUCERS AND DIRECTORS
+2720,ENT,"Arts, Design, Entertainment, Sports, and Media Occupations","ATHLETES, COACHES, UMPIRES, AND RELATED WORKERS"
+2740,ENT,"Arts, Design, Entertainment, Sports, and Media Occupations",DANCERS AND CHOREOGRAPHERS
+2750,ENT,"Arts, Design, Entertainment, Sports, and Media Occupations","MUSICIANS, SINGERS, AND RELATED WORKERS"
+2760,ENT,"Arts, Design, Entertainment, Sports, and Media Occupations","ENTERTAINERS AND PERFORMERS, SPORTS AND RELATED WORKERS, ALL OTHER"
+2800,ENT,"Arts, Design, Entertainment, Sports, and Media Occupations",ANNOUNCERS
+2810,ENT,"Arts, Design, Entertainment, Sports, and Media Occupations","NEWS ANALYSTS, REPORTERS AND CORRESPONDENTS"
+2825,ENT,"Arts, Design, Entertainment, Sports, and Media Occupations",PUBLIC RELATIONS SPECIALISTS
+2830,ENT,"Arts, Design, Entertainment, Sports, and Media Occupations",EDITORS
+2840,ENT,"Arts, Design, Entertainment, Sports, and Media Occupations",TECHNICAL WRITERS
+2850,ENT,"Arts, Design, Entertainment, Sports, and Media Occupations",WRITERS AND AUTHORS
+2860,ENT,"Arts, Design, Entertainment, Sports, and Media Occupations",MISCELLANEOUS MEDIA AND COMMUNICATION WORKERS
+2900,ENT,"Arts, Design, Entertainment, Sports, and Media Occupations","BROADCAST AND SOUND ENGINEERING TECHNICIANS AND RADIO OPERATORS, AND MEDIA AND COMMUNICATION EQUIPMENT WORKERS, ALL OTHER"
+2910,ENT,"Arts, Design, Entertainment, Sports, and Media Occupations",PHOTOGRAPHERS
+2920,ENT,"Arts, Design, Entertainment, Sports, and Media Occupations","TELEVISION, VIDEO, AND MOTION PICTURE CAMERA OPERATORS AND EDITORS"
+3000,MED,Healthcare Practitioners and Technical Occupations,CHIROPRACTORS
+3010,MED,Healthcare Practitioners and Technical Occupations,DENTISTS
+3030,MED,Healthcare Practitioners and Technical Occupations,DIETITIANS AND NUTRITIONISTS
+3040,MED,Healthcare Practitioners and Technical Occupations,OPTOMETRISTS
+3050,MED,Healthcare Practitioners and Technical Occupations,PHARMACISTS
+3060,MED,Healthcare Practitioners and Technical Occupations,PHYSICIANS AND SURGEONS
+3110,MED,Healthcare Practitioners and Technical Occupations,PHYSICIAN ASSISTANTS
+3120,MED,Healthcare Practitioners and Technical Occupations,PODIATRISTS
+3140,MED,Healthcare Practitioners and Technical Occupations,AUDIOLOGISTS
+3150,MED,Healthcare Practitioners and Technical Occupations,OCCUPATIONAL THERAPISTS
+3160,MED,Healthcare Practitioners and Technical Occupations,PHYSICAL THERAPISTS
+3200,MED,Healthcare Practitioners and Technical Occupations,RADIATION THERAPISTS
+3210,MED,Healthcare Practitioners and Technical Occupations,RECREATIONAL THERAPISTS
+3220,MED,Healthcare Practitioners and Technical Occupations,RESPIRATORY THERAPISTS
+3230,MED,Healthcare Practitioners and Technical Occupations,SPEECH
+3245,MED,Healthcare Practitioners and Technical Occupations,"OTHER THERAPISTS, INCLUDING EXERCISE PHYSIOLOGISTS"
+3250,MED,Healthcare Practitioners and Technical Occupations,VETERINARIANS
+3255,MED,Healthcare Practitioners and Technical Occupations,REGISTERED NURSES
+3256,MED,Healthcare Practitioners and Technical Occupations,NURSE ANESTHETISTS
+3258,MED,Healthcare Practitioners and Technical Occupations,"NURSE PRACTITIONERS, AND NURSE MIDWIVES"
+3260,MED,Healthcare Practitioners and Technical Occupations,"HEALTH DIAGNOSING AND TREATING PRACTITIONERS, ALL .OTHER"
+3300,MED,Healthcare Practitioners and Technical Occupations,CLINICAL LABORATORY TECHNOLOGISTS AND TECHNICIANS
+3310,MED,Healthcare Practitioners and Technical Occupations,DENTAL HYGIENISTS
+3320,MED,Healthcare Practitioners and Technical Occupations,DIAGNOSTIC RELATED TECHNOLOGISTS AND TECHNICIANS
+3400,MED,Healthcare Practitioners and Technical Occupations,EMERGENCY MEDICAL TECHNICIANS AND PARAMEDICS
+3420,MED,Healthcare Practitioners and Technical Occupations,HEALTH PRACTITIONER SUPPORT TECHNOLOGISTS AND TECHNICIANS
+3500,MED,Healthcare Practitioners and Technical Occupations,LICENSED PRACTICAL AND LICENSED VOCATIONAL NURSES
+3510,MED,Healthcare Practitioners and Technical Occupations,MEDICAL RECORDS AND HEALTH INFORMATION TECHNICIANS
+3520,MED,Healthcare Practitioners and Technical Occupations,"OPTICIANS, DISPENSING"
+3535,MED,Healthcare Practitioners and Technical Occupations,MISCELLANEOUS HEALTH TECHNOLOGISTS AND TECHNICIANS
+3540,MED,Healthcare Practitioners and Technical Occupations,OTHER HEALTHCARE PRACTITIONERS AND TECHNICAL OCCUPATIONS
+3600,HLS,Healthcare Support Occupations,"NURSING, PSYCHIATRIC, AND HOME HEALTH AIDES"
+3610,HLS,Healthcare Support Occupations,OCCUPATIONAL THERAPY ASSISTANTS AND AIDES
+3620,HLS,Healthcare Support Occupations,PHYSICAL THERAPIST ASSISTANTS AND AIDES
+3630,HLS,Healthcare Support Occupations,MASSAGE THERAPISTS
+3640,HLS,Healthcare Support Occupations,DENTAL ASSISTANTS
+3645,HLS,Healthcare Support Occupations,MEDICAL ASSISTANTS
+3646,HLS,Healthcare Support Occupations,MEDICAL TRANSCRIPTIONISTS
+3647,HLS,Healthcare Support Occupations,PHARMACY AIDES
+3648,HLS,Healthcare Support Occupations,VETERINARY ASSISTANTS AND LABORATORY ANIMAL CARETAKERS
+3649,HLS,Healthcare Support Occupations,PHLEBOTOMISTS
+3655,HLS,Healthcare Support Occupations,"HEALTHCARE SUPPORT WORKERS, ALL OTHER, INCLUDING MEDICAL EQUIPMENT PREPARERS"
+3700,PRT,Protective Service Occupations,FIRST LINE SUPERVISORS OF CORRECTIONAL OFFICERS  
+3710,PRT,Protective Service Occupations,FIRST LINE SUPERVISORS OF POLICE AND DETECTIVES
+3720,PRT,Protective Service Occupations,FIRST LINE SUPERVISORS OF FIRE FIGHTING AND PREVENTION WORKERS
+3730,PRT,Protective Service Occupations,"FIRST LINE SUPERVISORS OF PROTECTIVE SERVICE WORKERS, ALL OTHER"
+3740,PRT,Protective Service Occupations,FIREFIGHTERS
+3750,PRT,Protective Service Occupations,FIRE INSPECTORS
+3800,PRT,Protective Service Occupations,"BAILIFFS, CORRECTIONAL OFFICERS, AND JAILERS"
+3820,PRT,Protective Service Occupations,DETECTIVES AND CRIMINAL INVESTIGATORS
+3840,PRT,Protective Service Occupations,MISCELLANEOUS LAW ENFORCEMENT WORKERS
+3850,PRT,Protective Service Occupations,POLICE OFFICERS
+3900,PRT,Protective Service Occupations,ANIMAL CONTROL WORKERS
+3910,PRT,Protective Service Occupations,PRIVATE DETECTIVES AND INVESTIGATORS
+3930,PRT,Protective Service Occupations,SECURITY GUARDS AND GAMING SURVEILLANCE OFFICERS
+3940,PRT,Protective Service Occupations,CROSSING GUARDS
+3945,PRT,Protective Service Occupations,TRANSPORTATION SECURITY SCREENERS
+3955,PRT,Protective Service Occupations,"LIFEGUARDS AND OTHER RECREATIONAL, AND ALL OTHER PROTECTIVE SERVICE WORKERS"
+4000,EAT,Food Preparation and Serving Occupations,CHEFS AND HEAD COOKS
+4010,EAT,Food Preparation and Serving Occupations,FIRST LINE SUPERVISORS OF FOOD PREPARATION AND SERVING WORKERS
+4020,EAT,Food Preparation and Serving Occupations,COOKS
+4030,EAT,Food Preparation and Serving Occupations,FOOD PREPARATION WORKERS
+4040,EAT,Food Preparation and Serving Occupations,BARTENDERS
+4050,EAT,Food Preparation and Serving Occupations,"COMBINED FOOD PREPARATION AND SERVING WORKERS, INCLUDING FAST FOOD"
+4060,EAT,Food Preparation and Serving Occupations,"COUNTER ATTENDANTS, CAFETERIA, FOOD CONCESSION, AND COFFEE SHOP"
+4110,EAT,Food Preparation and Serving Occupations,WAITERS AND WAITRESSES
+4120,EAT,Food Preparation and Serving Occupations,"FOOD SERVERS, NONRESTAURANT"
+4130,EAT,Food Preparation and Serving Occupations,"MISCELLANEOUS FOOD PREPARATION AND SERVING RELATED WORKERS, INCLUDING DINING ROOM AND CAFETERIA ATTENDANTS AND BARTENDER HELPERS"
+4140,EAT,Food Preparation and Serving Occupations,DISHWASHERS
+4150,EAT,Food Preparation and Serving Occupations,"HOSTS AND HOSTESSES, RESTAURANT, LOUNGE, AND COFFEE SHOP"
+4200,CLN,Building and Grounds Cleaning and Maintenance Occupations,FIRST LINE SUPERVISORS OF HOUSEKEEPING AND JANITORIAL WORKERS
+4210,CLN,Building and Grounds Cleaning and Maintenance Occupations,"FIRST LINE SUPERVISORS OF LANDSCAPING, LAWN SERVICE, AND GROUNDSKEEPING WORKERS"
+4220,CLN,Building and Grounds Cleaning and Maintenance Occupations,JANITORS AND BUILDING CLEANERS
+4230,CLN,Building and Grounds Cleaning and Maintenance Occupations,MAIDS AND HOUSEKEEPING CLEANERS
+4240,CLN,Building and Grounds Cleaning and Maintenance Occupations,PEST CONTROL WORKERS
+4250,CLN,Building and Grounds Cleaning and Maintenance Occupations,GROUNDS MAINTENANCE WORKERS
+4300,PRS,Personal Care and Service Occupations,FIRST LINE SUPERVISORS OF GAMING WORKERS
+4320,PRS,Personal Care and Service Occupations,FIRST LINE SUPERVISORS OF PERSONAL SERVICE WORKERS
+4340,PRS,Personal Care and Service Occupations,ANIMAL TRAINERS
+4350,PRS,Personal Care and Service Occupations,NONFARM ANIMAL CARETAKERS
+4400,PRS,Personal Care and Service Occupations,GAMING SERVICES WORKERS
+4410,PRS,Personal Care and Service Occupations,MOTION PICTURE PROJECTIONISTS
+4420,PRS,Personal Care and Service Occupations,"USHERS, LOBBY ATTENDANTS, AND TICKET TAKERS"
+4430,PRS,Personal Care and Service Occupations,MISCELLANEOUS ENTERTAINMENT ATTENDANTS AND RELATED WORKERS
+4460,PRS,Personal Care and Service Occupations,EMBALMERS AND FUNERAL ATTENDANTS
+4465,PRS,Personal Care and Service Occupations,"MORTICIANS, UNDERTAKERS, AND FUNERAL DIRECTORS"
+4500,PRS,Personal Care and Service Occupations,BARBERS
+4510,PRS,Personal Care and Service Occupations,"HAIRDRESSERS, HAIRSTYLISTS, AND COSMETOLOGISTS"
+4520,PRS,Personal Care and Service Occupations,MISCELLANEOUS PERSONAL APPEARANCE WORKERS
+4530,PRS,Personal Care and Service Occupations,"BAGGAGE PORTERS, BELLHOPS, AND CONCIERGES"
+4540,PRS,Personal Care and Service Occupations,TOUR AND TRAVEL GUIDES
+4600,PRS,Personal Care and Service Occupations,CHILDCARE WORKERS
+4610,PRS,Personal Care and Service Occupations,PERSONAL CARE AIDES
+4620,PRS,Personal Care and Service Occupations,RECREATION AND FITNESS WORKERS
+4640,PRS,Personal Care and Service Occupations,RESIDENTIAL ADVISORS
+4650,PRS,Personal Care and Service Occupations,"PERSONAL CARE AND SERVICE WORKERS, ALL OTHER"
+4700,SAL,Sales and Related Occupations,FIRST LINE SUPERVISORS OF RETAIL SALES WORKERS
+4710,SAL,Sales and Related Occupations,FIRST LINE SUPERVISORS OF NON RETAIL SALES WORKERS
+4720,SAL,Sales and Related Occupations,CASHIERS
+4740,SAL,Sales and Related Occupations,COUNTER AND RENTAL CLERKS
+4750,SAL,Sales and Related Occupations,PARTS SALESPERSONS
+4760,SAL,Sales and Related Occupations,RETAIL SALESPERSONS
+4800,SAL,Sales and Related Occupations,ADVERTISING SALES AGENTS
+4810,SAL,Sales and Related Occupations,INSURANCE SALES AGENTS
+4820,SAL,Sales and Related Occupations,"SECURITIES, COMMODITIES, AND FINANCIAL SERVICES SALES AGENTS"
+4830,SAL,Sales and Related Occupations,TRAVEL AGENTS
+4840,SAL,Sales and Related Occupations,"SALES REPRESENTATIVES, SERVICES, ALL OTHER"
+4850,SAL,Sales and Related Occupations,"SALES REPRESENTATIVES, WHOLESALE AND MANUFACTURING"
+4900,SAL,Sales and Related Occupations,"MODELS, DEMONSTRATORS, AND PRODUCT PROMOTERS"
+4920,SAL,Sales and Related Occupations,REAL ESTATE BROKERS AND SALES AGENTS
+4930,SAL,Sales and Related Occupations,SALES ENGINEERS
+4940,SAL,Sales and Related Occupations,TELEMARKETERS
+4950,SAL,Sales and Related Occupations,"DOOR TO DOOR SALES WORKERS, NEWS AND STREET VENDORS"
+4965,SAL,Sales and Related Occupations,"SALES AND RELATED WORKERS, ALL OTHER"
+5000,OFF,Office and Administrative Support Occupations,FIRST LINE SUPERVISORS OF OFFICE AND ADMINISTRATIVE SUPPORT WORKERS
+5010,OFF,Office and Administrative Support Occupations,"SWITCHBOARD OPERATORS, INCLUDING ANSWERING SERVICE"
+5020,OFF,Office and Administrative Support Occupations,TELEPHONE OPERATORS
+5030,OFF,Office and Administrative Support Occupations,"COMMUNICATIONS EQUIPMENT OPERATORS, ALL OTHER"
+5100,OFF,Office and Administrative Support Occupations,BILL AND ACCOUNT COLLECTORS
+5110,OFF,Office and Administrative Support Occupations,BILLING AND POSTING CLERKS
+5120,OFF,Office and Administrative Support Occupations,"BOOKKEEPING, ACCOUNTING, AND AUDITING CLERKS"
+5130,OFF,Office and Administrative Support Occupations,GAMING CAGE WORKERS
+5140,OFF,Office and Administrative Support Occupations,PAYROLL AND TIMEKEEPING CLERKS
+5150,OFF,Office and Administrative Support Occupations,PROCUREMENT CLERKS
+5160,OFF,Office and Administrative Support Occupations,TELLERS
+5165,OFF,Office and Administrative Support Occupations,"FINANCIAL CLERKS, ALL OTHER"
+5200,OFF,Office and Administrative Support Occupations,BROKERAGE CLERKS
+5220,OFF,Office and Administrative Support Occupations,"COURT, MUNICIPAL, AND LICENSE CLERKS"
+5230,OFF,Office and Administrative Support Occupations,"CREDIT AUTHORIZERS, CHECKERS, AND CLERKS"
+5240,OFF,Office and Administrative Support Occupations,CUSTOMER SERVICE REPRESENTATIVES
+5250,OFF,Office and Administrative Support Occupations,"ELIGIBILITY INTERVIEWERS, GOVERNMENT PROGRAMS"
+5260,OFF,Office and Administrative Support Occupations,FILE CLERKS
+5300,OFF,Office and Administrative Support Occupations,"HOTEL, MOTEL, AND RESORT DESK CLERKS"
+5310,OFF,Office and Administrative Support Occupations,"INTERVIEWERS, EXCEPT ELIGIBILITY AND LOAN"
+5320,OFF,Office and Administrative Support Occupations,"LIBRARY ASSISTANTS, CLERICAL"
+5330,OFF,Office and Administrative Support Occupations,LOAN INTERVIEWERS AND CLERKS
+5340,OFF,Office and Administrative Support Occupations,NEW ACCOUNTS CLERKS
+5350,OFF,Office and Administrative Support Occupations,CORRESPONDENCE CLERKS AND ORDER CLERKS
+5360,OFF,Office and Administrative Support Occupations,"HUMAN RESOURCES ASSISTANTS, EXCEPT PAYROLL AND TIMEKEEPING"
+5400,OFF,Office and Administrative Support Occupations,RECEPTIONISTS AND INFORMATION CLERKS
+5410,OFF,Office and Administrative Support Occupations,RESERVATION AND TRANSPORTATION TICKET AGENTS AND .TRAVEL CLERKS
+5420,OFF,Office and Administrative Support Occupations,"INFORMATION AND RECORD CLERKS, ALL OTHER"
+5500,OFF,Office and Administrative Support Occupations,CARGO AND FREIGHT AGENTS
+5510,OFF,Office and Administrative Support Occupations,COURIERS AND MESSENGERS
+5520,OFF,Office and Administrative Support Occupations,DISPATCHERS
+5530,OFF,Office and Administrative Support Occupations,"METER READERS, UTILITIES"
+5540,OFF,Office and Administrative Support Occupations,POSTAL SERVICE CLERKS
+5550,OFF,Office and Administrative Support Occupations,POSTAL SERVICE MAIL CARRIERS
+5560,OFF,Office and Administrative Support Occupations,"POSTAL SERVICE MAIL SORTERS, PROCESSORS, AND .PROCESSING MACHINE OPERATORS"
+5600,OFF,Office and Administrative Support Occupations,"PRODUCTION, PLANNING, AND EXPEDITING CLERKS"
+5610,OFF,Office and Administrative Support Occupations,"SHIPPING, RECEIVING, AND TRAFFIC CLERKS"
+5620,OFF,Office and Administrative Support Occupations,STOCK CLERKS AND ORDER FILLERS
+5630,OFF,Office and Administrative Support Occupations,"WEIGHERS, MEASURERS, CHECKERS, AND SAMPLERS, .RECORDKEEPING"
+5700,OFF,Office and Administrative Support Occupations,SECRETARIES AND ADMINISTRATIVE ASSISTANTS
+5800,OFF,Office and Administrative Support Occupations,COMPUTER OPERATORS
+5810,OFF,Office and Administrative Support Occupations,DATA ENTRY KEYERS
+5820,OFF,Office and Administrative Support Occupations,WORD PROCESSORS AND TYPISTS
+5840,OFF,Office and Administrative Support Occupations,INSURANCE CLAIMS AND POLICY PROCESSING CLERKS
+5850,OFF,Office and Administrative Support Occupations,"MAIL CLERKS AND MAIL MACHINE OPERATORS, EXCEPT POSTAL SERVICE"
+5860,OFF,Office and Administrative Support Occupations,"OFFICE CLERKS, GENERAL"
+5900,OFF,Office and Administrative Support Occupations,"OFFICE MACHINE OPERATORS, EXCEPT COMPUTER"
+5910,OFF,Office and Administrative Support Occupations,PROOFREADERS AND COPY MARKERS
+5920,OFF,Office and Administrative Support Occupations,STATISTICAL ASSISTANTS
+5940,OFF,Office and Administrative Support Occupations,"MISCELLANEOUS OFFICE AND ADMINISTRATIVE SUPPORT WORKERS, INCLUDING DESKTOP PUBLISHERS"
+6005,FFF,"Farming, Fishing, and Forestry Occupations","FIRST LINE SUPERVISORS OF FARMING, FISHING, AND FORESTRY WORKERS"
+6010,FFF,"Farming, Fishing, and Forestry Occupations",AGRICULTURAL INSPECTORS
+6040,FFF,"Farming, Fishing, and Forestry Occupations","GRADERS AND SORTERS, AGRICULTURAL PRODUCTS"
+6050,FFF,"Farming, Fishing, and Forestry Occupations","MISCELLANEOUS AGRICULTURAL WORKERS, INCLUDING ANIMAL BREEDERS"
+6100,FFF,"Farming, Fishing, and Forestry Occupations",FISHING AND HUNTING WORKERS
+6120,FFF,"Farming, Fishing, and Forestry Occupations",FOREST AND CONSERVATION WORKERS
+6130,FFF,"Farming, Fishing, and Forestry Occupations",LOGGING WORKERS
+6200,CON,Construction and Extraction Occupations,FIRST LINE SUPERVISORS OF CONSTRUCTION TRADES AND EXTRACTION WORKERS
+6210,CON,Construction and Extraction Occupations,BOILERMAKERS
+6220,CON,Construction and Extraction Occupations,"BRICKMASONS, BLOCKMASONS, STONEMASONS, AND REINFORCING IRON AND REBAR WORKERS"
+6230,CON,Construction and Extraction Occupations,CARPENTERS
+6240,CON,Construction and Extraction Occupations,"CARPET, FLOOR, AND TILE INSTALLERS AND FINISHERS"
+6250,CON,Construction and Extraction Occupations,"CEMENT MASONS, CONCRETE FINISHERS, AND TERRAZZO .WORKERS"
+6260,CON,Construction and Extraction Occupations,CONSTRUCTION LABORERS
+6300,CON,Construction and Extraction Occupations,"PAVING, SURFACING, AND TAMPING EQUIPMENT OPERATORS"
+6320,CON,Construction and Extraction Occupations,"CONSTRUCTION EQUIPMENT OPERATORS, EXCEPT PAVING, SURFACING, AND TAMPING EQUIPMENT OPERATORS"
+6330,CON,Construction and Extraction Occupations,"DRYWALL INSTALLERS, CEILING TILE INSTALLERS, AND .TAPERS"
+6355,CON,Construction and Extraction Occupations,ELECTRICIANS
+6360,CON,Construction and Extraction Occupations,GLAZIERS
+6400,CON,Construction and Extraction Occupations,INSULATION WORKERS
+6420,CON,Construction and Extraction Occupations,PAINTERS AND PAPERHANGERS
+6440,CON,Construction and Extraction Occupations,"PIPELAYERS, PLUMBERS, PIPEFITTERS, AND STEAMFITTERS"
+6460,CON,Construction and Extraction Occupations,PLASTERERS AND STUCCO MASONS
+6515,CON,Construction and Extraction Occupations,ROOFERS
+6520,CON,Construction and Extraction Occupations,SHEET METAL WORKERS
+6530,CON,Construction and Extraction Occupations,STRUCTURAL IRON AND STEEL WORKERS
+6600,CON,Construction and Extraction Occupations,"HELPERS, CONSTRUCTION TRADES"
+6660,CON,Construction and Extraction Occupations,CONSTRUCTION AND BUILDING INSPECTORS
+6700,CON,Construction and Extraction Occupations,ELEVATOR INSTALLERS AND REPAIRERS
+6710,CON,Construction and Extraction Occupations,FENCE ERECTORS
+6720,CON,Construction and Extraction Occupations,HAZARDOUS MATERIALS REMOVAL WORKERS
+6730,CON,Construction and Extraction Occupations,HIGHWAY MAINTENANCE WORKERS
+6740,CON,Construction and Extraction Occupations,RAIL TRACK LAYING AND MAINTENANCE EQUIPMENT OPERATORS
+6765,CON,Construction and Extraction Occupations,"MISCELLANEOUS CONSTRUCTION WORKERS, INCLUDING SOLAR PHOTOVOLTAIC INSTALLERS, SEPTIC TANK SERVICERS AND SEWER PIPE CLEANERS"
+6800,EXT,Extraction Workers,"DERRICK, ROTARY DRILL, AND SERVICE UNIT OPERATORS, AND ROUSTABOUTS, OIL, GAS, AND MINING"
+6820,EXT,Extraction Workers,"EARTH DRILLERS, EXCEPT OIL AND GAS"
+6830,EXT,Extraction Workers,"EXPLOSIVES WORKERS, ORDNANCE HANDLING EXPERTS, AND BLASTERS"
+6840,EXT,Extraction Workers,MINING MACHINE OPERATORS
+6940,EXT,Extraction Workers,"MISCELLANEOUS EXTRACTION WORKERS, INCLUDING ROOF BOLTERS AND HELPERS"
+7000,RPR,"Installation, Maintenance, and Repair Workers","FIRST LINE SUPERVISORS OF MECHANICS, INSTALLERS, AND REPAIRERS"
+7010,RPR,"Installation, Maintenance, and Repair Workers","COMPUTER, AUTOMATED TELLER, AND OFFICE MACHINE REPAIRERS"
+7020,RPR,"Installation, Maintenance, and Repair Workers",RADIO AND TELECOMMUNICATIONS EQUIPMENT INSTALLERS AND REPAIRERS
+7030,RPR,"Installation, Maintenance, and Repair Workers",AVIONICS TECHNICIANS
+7040,RPR,"Installation, Maintenance, and Repair Workers","ELECTRIC MOTOR, POWER TOOL, AND RELATED REPAIRERS"
+7100,RPR,"Installation, Maintenance, and Repair Workers","ELECTRICAL AND ELECTRONICS REPAIRERS, TRANSPORTATION EQUIPMENT, AND INDUSTRIAL AND UTILITY"
+7110,RPR,"Installation, Maintenance, and Repair Workers","ELECTRONIC EQUIPMENT INSTALLERS AND REPAIRERS, MOTOR VEHICLES"
+7120,RPR,"Installation, Maintenance, and Repair Workers",ELECTRONIC HOME ENTERTAINMENT EQUIPMENT INSTALLERS AND REPAIRERS
+7130,RPR,"Installation, Maintenance, and Repair Workers",SECURITY AND FIRE ALARM SYSTEMS INSTALLERS
+7140,RPR,"Installation, Maintenance, and Repair Workers",AIRCRAFT MECHANICS AND SERVICE TECHNICIANS
+7150,RPR,"Installation, Maintenance, and Repair Workers",AUTOMOTIVE BODY AND RELATED REPAIRERS
+7160,RPR,"Installation, Maintenance, and Repair Workers",AUTOMOTIVE GLASS INSTALLERS AND REPAIRERS
+7200,RPR,"Installation, Maintenance, and Repair Workers",AUTOMOTIVE SERVICE TECHNICIANS AND MECHANICS
+7210,RPR,"Installation, Maintenance, and Repair Workers",BUS AND TRUCK MECHANICS AND DIESEL ENGINE SPECIALISTS
+7220,RPR,"Installation, Maintenance, and Repair Workers",HEAVY VEHICLE AND MOBILE EQUIPMENT SERVICE TECHNICIANS AND MECHANICS
+7240,RPR,"Installation, Maintenance, and Repair Workers",SMALL ENGINE MECHANICS
+7260,RPR,"Installation, Maintenance, and Repair Workers","MISCELLANEOUS VEHICLE AND MOBILE EQUIPMENT MECHANICS, INSTALLERS, AND REPAIRERS"
+7300,RPR,"Installation, Maintenance, and Repair Workers",CONTROL AND VALVE INSTALLERS AND REPAIRERS
+7315,RPR,"Installation, Maintenance, and Repair Workers","HEATING, AIR CONDITIONING, AND REFRIGERATION MECHANICS AND INSTALLERS"
+7320,RPR,"Installation, Maintenance, and Repair Workers",HOME APPLIANCE REPAIRERS
+7330,RPR,"Installation, Maintenance, and Repair Workers",INDUSTRIAL AND REFRACTORY MACHINERY MECHANICS
+7340,RPR,"Installation, Maintenance, and Repair Workers","MAINTENANCE AND REPAIR WORKERS, GENERAL"
+7350,RPR,"Installation, Maintenance, and Repair Workers","MAINTENANCE WORKERS, MACHINERY"
+7360,RPR,"Installation, Maintenance, and Repair Workers",MILLWRIGHTS
+7410,RPR,"Installation, Maintenance, and Repair Workers",ELECTRICAL POWER LINE INSTALLERS AND REPAIRERS
+7420,RPR,"Installation, Maintenance, and Repair Workers",TELECOMMUNICATIONS LINE INSTALLERS AND REPAIRERS
+7430,RPR,"Installation, Maintenance, and Repair Workers",PRECISION INSTRUMENT AND EQUIPMENT REPAIRERS
+7510,RPR,"Installation, Maintenance, and Repair Workers","COIN, VENDING, AND AMUSEMENT MACHINE SERVICERS AND REPAIRERS"
+7540,RPR,"Installation, Maintenance, and Repair Workers",LOCKSMITHS AND SAFE REPAIRERS
+7560,RPR,"Installation, Maintenance, and Repair Workers",RIGGERS
+7610,RPR,"Installation, Maintenance, and Repair Workers","HELPERS INSTALLATION, MAINTENANCE, AND REPAIR WORKERS"
+7630,RPR,"Installation, Maintenance, and Repair Workers","MISCELLANEOUS INSTALLATION, MAINTENANCE, AND REPAIR WORKERS, INCLUDING WIND TURBINE SERVICE TECHNICIANS"
+7700,PRD,Production Occupations,FIRST LINE SUPERVISORS OF PRODUCTION AND OPERATING WORKERS
+7710,PRD,Production Occupations,"AIRCRAFT STRUCTURE, SURFACES, RIGGING, AND SYSTEMS ASSEMBLERS"
+7720,PRD,Production Occupations,"ELECTRICAL, ELECTRONICS, AND ELECTROMECHANICAL ASSEMBLERS"
+7730,PRD,Production Occupations,ENGINE AND OTHER MACHINE ASSEMBLERS
+7740,PRD,Production Occupations,STRUCTURAL METAL FABRICATORS AND FITTERS
+7750,PRD,Production Occupations,MISCELLANEOUS ASSEMBLERS AND FABRICATORS
+7800,PRD,Production Occupations,BAKERS
+7810,PRD,Production Occupations,"BUTCHERS AND OTHER MEAT, POULTRY, AND FISH PROCESSING ASSEMBLERS"
+7830,PRD,Production Occupations,"FOOD AND TOBACCO ROASTING, BAKING, AND DRYING MACHINE OPERATORS AND TENDERS"
+7840,PRD,Production Occupations,FOOD BATCHMAKERS
+7850,PRD,Production Occupations,FOOD COOKING MACHINE OPERATORS AND TENDERS\
+7855,PRD,Production Occupations,"FOOD PROCESSING WORKERS, ALL OTHER"
+7900,PRD,Production Occupations,COMPUTER CONTROL PROGRAMMERS AND OPERATORS
+7920,PRD,Production Occupations,"EXTRUDING AND DRAWING MACHINE SETTERS, OPERATORS, AND TENDERS, METAL AND PLASTIC"
+7930,PRD,Production Occupations,"FORGING MACHINE SETTERS, OPERATORS, AND TENDERS, METAL AND PLASTIC"
+7940,PRD,Production Occupations,"ROLLING MACHINE SETTERS, OPERATORS, AND TENDERS, METAL AND PLASTIC"
+7950,PRD,Production Occupations,"MACHINE TOOL CUTTING SETTERS, OPERATORS, AND TENDERS, METAL AND PLASTIC"
+8030,PRD,Production Occupations,MACHINISTS
+8040,PRD,Production Occupations,"METAL FURNACE OPERATORS, TENDERS, POURERS, AND CASTERS"
+8100,PRD,Production Occupations,"MODEL MAKERS, PATTERNMAKERS, AND MOLDING MACHINE SETTERS, METAL AND PLASTIC"
+8130,PRD,Production Occupations,TOOL AND DIE MAKERS
+8140,PRD,Production Occupations,"WELDING, SOLDERING, AND BRAZING WORKERS"
+8220,PRD,Production Occupations,"MISCELLANEOUS METAL WORKERS AND PLASTIC WORKERS, INCLUDING MULTIPLE MACHINE TOOL SETTERS"
+8250,PRD,Production Occupations,PREPRESS TECHNICIANS AND WORKERS
+8255,PRD,Production Occupations,PRINTING PRESS OPERATORS
+8256,PRD,Production Occupations,PRINT BINDING AND FINISHING WORKERS
+8300,PRD,Production Occupations,LAUNDRY AND DRY CLEANING WORKERS
+8310,PRD,Production Occupations,"PRESSERS, TEXTILE, GARMENT, AND RELATED MATERIALS"
+8320,PRD,Production Occupations,SEWING MACHINE OPERATORS
+8330,PRD,Production Occupations,SHOE AND LEATHER WORKERS
+8350,PRD,Production Occupations,"TAILORS, DRESSMAKERS, AND SEWERS"
+8400,PRD,Production Occupations,"TEXTILE BLEACHING AND DYEING, AND CUTTING MACHINE SETTERS, OPERATORS, AND TENDERS"
+8410,PRD,Production Occupations,"TEXTILE KNITTING AND WEAVING MACHINE SETTERS, OPERATORS, AND TENDERS"
+8420,PRD,Production Occupations,"TEXTILE WINDING, TWISTING, AND DRAWING OUT MACHINE SETTERS, OPERATORS, AND TENDERS"
+8450,PRD,Production Occupations,UPHOLSTERERS
+8460,PRD,Production Occupations,"MISCELLANEOUS TEXTILE, APPAREL, AND FURNISHINGS WORKERS, EXCEPT UPHOLSTERERS"
+8500,PRD,Production Occupations,CABINETMAKERS AND BENCH CARPENTERS
+8510,PRD,Production Occupations,FURNITURE FINISHERS
+8530,PRD,Production Occupations,"SAWING MACHINE SETTERS, OPERATORS, AND TENDERS, WOOD"
+8540,PRD,Production Occupations,"WOODWORKING MACHINE SETTERS, OPERATORS, AND TENDERS, EXCEPT SAWING"
+8550,PRD,Production Occupations,"MISCELLANEOUS WOODWORKERS, INCLUDING MODEL MAKERS AND PATTERNMAKERS"
+8600,PRD,Production Occupations,"POWER PLANT OPERATORS, DISTRIBUTORS, AND DISPATCHERS"
+8610,PRD,Production Occupations,STATIONARY ENGINEERS AND BOILER OPERATORS
+8620,PRD,Production Occupations,WATER AND WASTEWATER TREATMENT PLANT AND SYSTEM OPERATORS
+8630,PRD,Production Occupations,MISCELLANEOUS PLANT AND SYSTEM OPERATORS
+8640,PRD,Production Occupations,"CHEMICAL PROCESSING MACHINE SETTERS, OPERATORS, AND TENDERS"
+8650,PRD,Production Occupations,"CRUSHING, GRINDING, POLISHING, MIXING, AND BLENDING WORKERS"
+8710,PRD,Production Occupations,CUTTING WORKERS
+8720,PRD,Production Occupations,"EXTRUDING, FORMING, PRESSING, AND COMPACTING MACHINE SETTERS, OPERATORS, AND TENDERS"
+8730,PRD,Production Occupations,"FURNACE, KILN, OVEN, DRIER, AND KETTLE OPERATORS AND TENDERS"
+8740,PRD,Production Occupations,"INSPECTORS, TESTERS, SORTERS, SAMPLERS, AND WEIGHERS"
+8750,PRD,Production Occupations,JEWELERS AND PRECIOUS STONE AND METAL WORKERS
+8760,PRD,Production Occupations,"MEDICAL, DENTAL, AND OPHTHALMIC LABORATORY TECHNICIANS"
+8800,PRD,Production Occupations,PACKAGING AND FILLING MACHINE OPERATORS AND TENDERS
+8810,PRD,Production Occupations,PAINTING WORKERS
+8830,PRD,Production Occupations,PHOTOGRAPHIC PROCESS WORKERS AND PROCESSING MACHINE OPERATORS
+8850,PRD,Production Occupations,ADHESIVE BONDING MACHINE OPERATORS AND TENDERS
+8910,PRD,Production Occupations,ETCHERS AND ENGRAVERS
+8920,PRD,Production Occupations,"MOLDERS, SHAPERS, AND CASTERS, EXCEPT METAL AND .PLASTIC"
+8930,PRD,Production Occupations,"PAPER GOODS MACHINE SETTERS, OPERATORS, AND TENDERS"
+8940,PRD,Production Occupations,TIRE BUILDERS
+8950,PRD,Production Occupations,HELPERS PRODUCTION WORKERS
+8965,PRD,Production Occupations,"MISCELLANEOUS PRODUCTION WORKERS, INCLUDING SEMICONDUCTOR PROCESSORS"
+9000,TRN,Transportation and Material Moving Occupations,SUPERVISORS OF TRANSPORTATION AND MATERIAL MOVING WORKERS
+9030,TRN,Transportation and Material Moving Occupations,AIRCRAFT PILOTS AND FLIGHT ENGINEERS
+9040,TRN,Transportation and Material Moving Occupations,AIR TRAFFIC CONTROLLERS AND AIRFIELD OPERATIONS SPECIALISTS
+9050,TRN,Transportation and Material Moving Occupations,FLIGHT ATTENDANTS
+9110,TRN,Transportation and Material Moving Occupations,"AMBULANCE DRIVERS AND ATTENDANTS, EXCEPT EMERGENCY MEDICAL TECHNICIANS"
+9120,TRN,Transportation and Material Moving Occupations,BUS DRIVERS
+9130,TRN,Transportation and Material Moving Occupations,DRIVER/SALES WORKERS AND TRUCK DRIVERS
+9140,TRN,Transportation and Material Moving Occupations,TAXI DRIVERS AND CHAUFFEURS
+9150,TRN,Transportation and Material Moving Occupations,"MOTOR VEHICLE OPERATORS, ALL OTHER"
+9200,TRN,Transportation and Material Moving Occupations,LOCOMOTIVE ENGINEERS AND OPERATORS
+9240,TRN,Transportation and Material Moving Occupations,RAILROAD CONDUCTORS AND YARDMASTERS
+9260,TRN,Transportation and Material Moving Occupations,"SUBWAY, STREETCAR, AND OTHER RAIL TRANSPORTATION WORKERS"
+9300,TRN,Transportation and Material Moving Occupations,"SAILORS AND MARINE OILERS, AND SHIP ENGINEERS"
+9310,TRN,Transportation and Material Moving Occupations,SHIP AND BOAT CAPTAINS AND OPERATORS
+9350,TRN,Transportation and Material Moving Occupations,PARKING LOT ATTENDANTS
+9360,TRN,Transportation and Material Moving Occupations,AUTOMOTIVE AND WATERCRAFT SERVICE ATTENDANTS
+9410,TRN,Transportation and Material Moving Occupations,TRANSPORTATION INSPECTORS
+9415,TRN,Transportation and Material Moving Occupations,"TRANSPORTATION ATTENDANTS, EXCEPT FLIGHT ATTENDANTS"
+9420,TRN,Transportation and Material Moving Occupations,"MISCELLANEOUS TRANSPORTATION WORKERS, INCLUDING BRIDGE AND LOCK TENDERS AND TRAFFIC TECHNICIANS"
+9510,TRN,Transportation and Material Moving Occupations,CRANE AND TOWER OPERATORS
+9520,TRN,Transportation and Material Moving Occupations,"DREDGE, EXCAVATING, AND LOADING MACHINE OPERATORS"
+9560,TRN,Transportation and Material Moving Occupations,"CONVEYOR OPERATORS AND TENDERS, AND HOIST AND WINCH OPERATORS"
+9600,TRN,Transportation and Material Moving Occupations,INDUSTRIAL TRUCK AND TRACTOR OPERATORS
+9610,TRN,Transportation and Material Moving Occupations,CLEANERS OF VEHICLES AND EQUIPMENT
+9620,TRN,Transportation and Material Moving Occupations,"LABORERS AND FREIGHT, STOCK, AND MATERIAL MOVERS, HAND"
+9630,TRN,Transportation and Material Moving Occupations,MACHINE FEEDERS AND OFFBEARERS
+9640,TRN,Transportation and Material Moving Occupations,"PACKERS AND PACKAGERS, HAND"
+9650,TRN,Transportation and Material Moving Occupations,PUMPING STATION OPERATORS
+9720,TRN,Transportation and Material Moving Occupations,REFUSE AND RECYCLABLE MATERIAL COLLECTORS
+9750,TRN,Transportation and Material Moving Occupations,"MISCELLANEOUS MATERIAL MOVING WORKERS, INCLUDING MINE SHUTTLE CAR OPERATORS, AND TANK CAR, TRUCK, AND SHIP LOADERS"
+9800,MIL,Millitary Specific Occupation,MILITARY OFFICER SPECIAL AND TACTICAL OPERATIONS LEADERS
+9810,MIL,Millitary Specific Occupation,FIRST LINE ENLISTED MILITARY SUPERVISORS
+9820,MIL,Millitary Specific Occupation,MILITARY ENLISTED TACTICAL OPERATIONS AND AIR/WEAPONS SPECIALISTS AND CREW MEMBERS
+9830,MIL,Millitary Specific Occupation,"MILITARY, RANK NOT SPECIFIED **"
+9920,NA,NA,UNEMPLOYED AND LAST WORKED 5 YEARS AGO OR EARLIER OR NEVER .WORKED **
+,,,
+,Note: For additional information on NAICS and SOC groupings within major categories visit our website at: http://www.census.gov/people/io/methodology/indexes.html.,,
+,PAOC 1,,
+,Presence and age of own children,,
+,b .N/A (male/female under 16 years old/GQ),,
+,1 .Females with own children under 6 years only,,
+,2 .Females with own children 6 to 17 years only,,
+,3 .Females with own children under 6 years and 6 to 17 years,,
+,4 .Females with no own children,,
+,PERNP 7,,
+,Total person's earnings,,
+,bbbbbbb .,,
